@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <nav class="nav">
+            <div class="container">
+                <div class="logo">
+                    <div>
+                        <a href="#">Round Indigo Rock</a>                       
+                    </div>
+                </div>
+                <div id="mainListDiv" class="main_list" lang="en">
+                    <ul class="navlinks">
+                        <li>
+                            <a href="#contact" id="test-es" class="links-es" style="display:block;">Contacto</a>
+                            <a href="#contact" id="test-en" class="links-en" style="display:none;">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#" class="links-es" style="display:block;">Acerca</a>
+                            <a href="#" class="links-en" style="display:none;">About</a>
+                        </li>
+                        <li>
+                            <a href="#" class="links-es" style="display:block;">Servicios</a>
+                            <a href="#" class="links-en" style="display:none;">Services</a>
+                        </li>
+                        <li>
+                            <a href="#" id="translate-es">EN/ES</a>
+                        </li>
+                    </ul>
+                </div>
+                <span class="navTrigger">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </span>
+            </div>
+        </nav>
+
+        <section class="home" id="home">
+            <div id="main-message" style="display:flex; justify-content:center; padding-top: 250px;">
+                <h1 class="new-website">EN CONSTRUCCION...</h1>
+            </div>
+            <div style="display:flex; justify-content:center;">
+                <h3 id="subtitle">un nuevo sitio web para su próximo proyecto publicitario OOH</h3>
+            </div>
+        </section>
+
+        <div style="height: 1000px; background-color: #f3f5f7;" >
+            <!-- just to make scrolling effect possible -->
+                <h2 class="myH2">Round Indigo Rock</h2>
+                <div id="popup" class="modal-dialog modal-dialog-centered" style="display:none;">
+                    ...
+                  </div>
+
+                <section class="light">
+                    <div class="container py-2">
+                        <div class="h1 text-center text-dark" id="pageHeaderTitle">Some of our Work</div>
+                
+                        <article class="postcard light blue">
+                            <a class="postcard__img_link" href="https://flic.kr/p/2nHx8bS" target="_blank">
+                                <img class="postcard__img" src="https://live.staticflickr.com/65535/52322233658_d197a2f422_c.jpg" alt="Image Title" />
+                            </a>
+                            <div class="postcard__text t-dark">
+                                <h1 class="postcard__title blue"><a href="#">Podcast Title</a></h1>
+                                <div class="postcard__subtitle small">
+                                    <time datetime="2020-05-25 12:00:00">
+                                        <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                                    </time>
+                                </div>
+                                <div class="postcard__bar"></div>
+                                <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                                <ul class="postcard__tagbox">
+                                    <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+                                    <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+                                    <li class="tag__item play blue">
+                                        <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </article>
+                        <article class="postcard light red">
+                            <a class="postcard__img_link" href="https://flic.kr/p/2nHvv84" target="_blank">
+                                <img class="postcard__img" src="https://live.staticflickr.com/65535/52321917221_537cf1dd34_c.jpg" alt="Image Title" />	
+                            </a>
+                            <div class="postcard__text t-dark">
+                                <h1 class="postcard__title red"><a href="#">Podcast Title</a></h1>
+                                <div class="postcard__subtitle small">
+                                    <time datetime="2020-05-25 12:00:00">
+                                        <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                                    </time>
+                                </div>
+                                <div class="postcard__bar"></div>
+                                <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                                <ul class="postcard__tagbox">
+                                    <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+                                    <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+                                    <li class="tag__item play red">
+                                        <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </article>
+                        <article class="postcard light green">
+                            <a class="postcard__img_link" href="https://flic.kr/p/2nHxL8V" target="_blank">
+                                <img class="postcard__img" src="https://live.staticflickr.com/65535/52322357955_53773c3345_c.jpg" alt="Image Title" />
+                            </a>
+                            <div class="postcard__text t-dark">
+                                <h1 class="postcard__title green"><a href="#">Podcast Title</a></h1>
+                                <div class="postcard__subtitle small">
+                                    <time datetime="2020-05-25 12:00:00">
+                                        <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                                    </time>
+                                </div>
+                                <div class="postcard__bar"></div>
+                                <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                                <ul class="postcard__tagbox">
+                                    <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+                                    <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+                                    <li class="tag__item play green">
+                                        <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </article>
+                        <article class="postcard light yellow">
+                            <a class="postcard__img_link" href="https://flic.kr/p/2nHvveb" target="_blank">
+                                <img class="postcard__img" src="https://live.staticflickr.com/65535/52321917576_38ccec47f4_z.jpg" alt="Image Title" />
+                            </a>
+                            <div class="postcard__text t-dark">
+                                <h1 class="postcard__title yellow"><a href="#">Podcast Title</a></h1>
+                                <div class="postcard__subtitle small">
+                                    <time datetime="2020-05-25 12:00:00">
+                                        <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                                    </time>
+                                </div>
+                                <div class="postcard__bar"></div>
+                                <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                                <ul class="postcard__tagbox">
+                                    <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+                                    <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+                                    <li class="tag__item play yellow">
+                                        <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <section id="contact" style="display:flex; justify-content:center; padding: 50px;">
+                    <h1 class="contacts" style="margin-right:50px;">
+                        <a style="color:rgb(0, 0, 0);" href="mailto:roundindigorock@gmail.com">roundindigorock@gmail.com</a>
+                    </h1>
+                    <h1 class="contacts">
+                        <a style="color:rgb(0, 0, 0);" href="https://api.whatsapp.com/send?phone=5491127227731">+54 9 11 2722 7731</a>
+                    </h1>
+                </section>
+
+                <section class="dark">
+                    <div class="container py-4">
+                        <h1 class="h1 text-center" id="pageHeaderTitle">More projects</h1>
+                
+                        <article class="postcard dark blue">
+                            <a class="postcard__img_link" href="https://flic.kr/p/2nHroST" target="_blank">
+                                <img class="postcard__img" src="https://live.staticflickr.com/65535/52321115767_4db73c223f_z.jpg" alt="Image Title" />
+                            </a>
+                            <div class="postcard__text">
+                                <h1 class="postcard__title blue"><a href="#">Podcast Title</a></h1>
+                                <div class="postcard__subtitle small">
+                                    <time datetime="2020-05-25 12:00:00">
+                                        <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                                    </time>
+                                </div>
+                                <div class="postcard__bar"></div>
+                                <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                                <ul class="postcard__tagbox">
+                                    <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+                                    <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+                                    <li class="tag__item play blue">
+                                        <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </article>
+                        <article class="postcard dark red">
+                            <a class="postcard__img_link" href="https://flic.kr/p/2nHx8cJ" target="_blank">
+                                <img class="postcard__img" src="https://live.staticflickr.com/65535/52322233708_286d58d171_z.jpg" alt="Image Title" />	
+                            </a>
+                            <div class="postcard__text">
+                                <h1 class="postcard__title red"><a href="#">Podcast Title</a></h1>
+                                <div class="postcard__subtitle small">
+                                    <time datetime="2020-05-25 12:00:00">
+                                        <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                                    </time>
+                                </div>
+                                <div class="postcard__bar"></div>
+                                <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                                <ul class="postcard__tagbox">
+                                    <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+                                    <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+                                    <li class="tag__item play red">
+                                        <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </article>
+                        <article class="postcard dark green">
+                            <a class="postcard__img_link" href="https://flic.kr/p/2nHx7KM" target="_blank">
+                                <img class="postcard__img" src="https://live.staticflickr.com/65535/52322232203_e8e2a705ee_z.jpg" alt="Image Title" />
+                            </a>
+                            <div class="postcard__text">
+                                <h1 class="postcard__title green"><a href="#">Podcast Title</a></h1>
+                                <div class="postcard__subtitle small">
+                                    <time datetime="2020-05-25 12:00:00">
+                                        <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                                    </time>
+                                </div>
+                                <div class="postcard__bar"></div>
+                                <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                                <ul class="postcard__tagbox">
+                                    <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+                                    <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+                                    <li class="tag__item play green">
+                                        <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </article>
+                        <article class="postcard dark yellow">
+                            <a class="postcard__img_link" href="https://flic.kr/p/2nHxEtN" target="_blank">
+                                <img class="postcard__img" src="https://live.staticflickr.com/65535/52322338924_4485f7ae22_z.jpg" alt="Image Title" />
+                            </a>
+                            <div class="postcard__text">
+                                <h1 class="postcard__title yellow"><a href="#">Podcast Title</a></h1>
+                                <div class="postcard__subtitle small">
+                                    <time datetime="2020-05-25 12:00:00">
+                                        <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                                    </time>
+                                </div>
+                                <div class="postcard__bar"></div>
+                                <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                                <ul class="postcard__tagbox">
+                                    <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+                                    <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+                                    <li class="tag__item play yellow">
+                                        <a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+        </div>
+    
+    <!-- Function used to shrink nav bar removing paddings and adding black background -->
+        <script>
+            $(window).scroll(function() {
+                if ($(document).scrollTop() > 50) {
+                    $('.nav').addClass('affix');
+                    console.log("OK");
+                } else {
+                    $('.nav').removeClass('affix');
+                }
+            });
+            
+        </script>
+    </body>
+</html>
